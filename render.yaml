@@ -36,10 +36,7 @@ services:
     staticPublishPath: "./dist"
     envVars:
       - key: VITE_API_URL
-        fromService:
-          type: web
-          name: rain-alert-backend
-          envVar: RENDER_EXTERNAL_URL
+        sync: false
     routes:
       - type: rewrite
         source: /*
