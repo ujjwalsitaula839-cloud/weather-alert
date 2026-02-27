@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic[email]
+python-dotenv
+passlib[bcrypt]
+python-jose[cryptography]
+alembic
+pytest
+httpx
+apscheduler
+twilio
+requests
